@@ -7,6 +7,7 @@ body {
 
 }
 
+
 .wishlist-icon {
     width: 34px;
     font-size: 15px;
@@ -120,4 +121,34 @@ body {
     top: 285%;
     left: 50%;
     transform:translate(-50%, 0%);
+}
+
+.rb-accordion {
+    border-top: 1px solid #d9d9d9;
+    
+    /* margin-top: 60px; */
+    display: block;
+    max-width: 100%;
+    margin-left:19%;
+    margin-right:19%;
+    
+}
+
+.rba-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 18px 0;
+    /* font-family: 'Gilroy-Bold', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif; */
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+
+.hidden-block {
+    display: none;
+}
+
+a:hover, p:hover {
+    text-decoration: underline 2px solid #30D5C8 !important;
 }
