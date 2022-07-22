@@ -7,3 +7,14 @@ titles.forEach((element, index) => {
         contents[index].classList.toggle('hidden-block');
     })
 });
+
+
+const irs = document.querySelector('.irs-single');
+console.log(irs.innerHTML);
+
+const price = document.querySelector('.price-display');
+
+irs.addEventListener('change', event => {
+    console.log(11111);
+    price.innerHTML = event.target.value;
+})
