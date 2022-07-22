@@ -129,8 +129,8 @@ body {
     /* margin-top: 60px; */
     display: block;
     max-width: 100%;
-    margin-left:19%;
-    margin-right:19%;
+    /* margin-left:19%;
+    margin-right:19%; */
     
 }
 
@@ -154,6 +154,70 @@ a:hover, p:hover {
 }
 
 div.dropdown-menu {
-    min-height: 160px;
+    min-height: 165px;
+
 }
 
+ul.dropdown-guests {
+    min-height: 225px;
+}
+
+.done-btn {
+    background-color: white !important;
+    width: 90px;
+    height: 34px;
+    text-align: center !important;
+    position: absolute;
+    line-height: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40% !important;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-transform: none !important;
+    font-weight: 500 !important;
+}
+
+.done-btn-guests {
+    background-color: white !important;
+    width: 90px;
+    height: 34px;
+    text-align: center !important;
+    position: absolute;
+    line-height: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30% !important;
+    margin-top: 3px;
+    border-radius: 5px;
+    text-transform: none !important;
+    font-weight: 500 !important;
+}
+
+h4.contact-text {
+    color: #5e6d77;
+    font-weight: 400;
+    font-size:large;
+}
+
+h2.title {
+    margin-bottom: 35px;
+}
+
+div.scrollSEO {
+    font-size: medium;
+    margin-top:50px;
+    margin-bottom:50px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+div.scrollSEO img {
+    margin:20px;
+    margin-left: 20px;
+    
+}

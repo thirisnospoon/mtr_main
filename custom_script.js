@@ -8,13 +8,17 @@ titles.forEach((element, index) => {
     })
 });
 
+const doneButton = document.querySelector('.done-btn');
+const priceDropdown = document.querySelector('#price-dropdown');
+const doneButtonGuests = document.querySelector('.done-btn-guests');
+const priceDropdownGuests = document.querySelector('.dropdown-guests');
 
-const irs = document.querySelector('.irs-single');
-console.log(irs.innerHTML);
+doneButton.addEventListener('click', event => {
+    event.preventDefault();
+    priceDropdown.style.display = 'none';
+});
 
-const price = document.querySelector('.price-display');
-
-irs.addEventListener('change', event => {
-    console.log(11111);
-    price.innerHTML = event.target.value;
-})
+doneButtonGuests.addEventListener('click', event => {
+    event.preventDefault();
+    priceDropdownGuests.style.display = 'none';
+});
